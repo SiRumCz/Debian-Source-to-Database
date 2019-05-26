@@ -125,7 +125,8 @@ do_db_insert()
 conn.close()
 dpfile.close()
 
-# Package: 65638
+# Counts in Notepad++
+# Package: 2486
 # Vcs-: 40853
 # Vcs-browser: 20338
 # Vcs-Git: 18014
