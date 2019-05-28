@@ -2,7 +2,8 @@
 
 convert text information in http://ftp.ca.debian.org/debian/dists/stable/main/source/ to SQLite 3 database
 
-Note: According to [Debian Policy Manual](https://www.debian.org/doc/debian-policy/ch-archive.html#archive-areas), only *main* area is considered in Deian distribution.
+---
+Note: According to [Debian Policy Manual](https://www.debian.org/doc/debian-policy/ch-archive.html#archive-areas), only *main* area is considered to be part of Debian distribution.
 
 This is a replacement to my Debian-Packages-Scrapy
 
