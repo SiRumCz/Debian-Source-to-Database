@@ -19,6 +19,8 @@ c.execute(
     '''
 )
 
+c.execute(''' CREATE INDEX IF NOT EXISTS pname_index ON packages(name) ''')
+
 # clean table before insertion
 c.execute(''' DELETE FROM packages ''')
 
