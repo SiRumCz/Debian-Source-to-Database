@@ -8,4 +8,4 @@ This is a replacement and improvement to my Debian-Packages-Scrapy
 [A Model to Understand the Building and Running Inter-Dependencies of Software](http://turingmachine.org/~dmg/papers/dmg2007_wcre_depend.pdf)
 
 [Macro-level software evolution: a case study
-of a large software compilation] (https://link.springer.com/content/pdf/10.1007%2Fs10664-008-9100-x.pdf)
+of a large software compilation](https://link.springer.com/content/pdf/10.1007%2Fs10664-008-9100-x.pdf)
