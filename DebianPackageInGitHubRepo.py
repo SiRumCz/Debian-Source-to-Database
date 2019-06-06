@@ -2,7 +2,7 @@ from github import Github
 import sqlite3
 
 # persona; access token created from github
-access_token = "***"
+access_token = "8f1944fda791abd557b83dfc8c38349efed85670"
 
 pkgdb = "Debian-stable.db"
 ghdb = "Debian-github.db" 

@@ -21,7 +21,7 @@ c.execute(''' DELETE FROM pubrepos ''')
 insert_query = ''' INSERT INTO pubrepos(name, url, stars) VALUES(?, ?, ?) '''
 
 # persona; access token created from github
-access_token = "***"
+access_token = "8f1944fda791abd557b83dfc8c38349efed85670"
 
 gh = Github(access_token)
 repos = gh.get_repos()
