@@ -63,6 +63,7 @@ attr_dict = {
     "Package": "name",
     "Version": "version",
     "Build-Depends": "dependency",
+    "Build-Depends-Indep": "dependency",
     "Vcs-Browser": "vcsbrowser",
     "Homepage": "homepage",
     "Section": "section"
@@ -117,7 +118,7 @@ with open(fname, encoding='utf-8') as dpfile:
                 if (attr_name in vcs_arr):
                     package["vcsname"] = attr_name
                 
-                if (attr_name == "Build-Depends"):
+                if (attr_name == "Build-Depends" or attr_name == "Build-Depends-Indep"):
                     pkg_depends = [x.strip() for x in attr_value.split(", ")]
                 else:
                     package[attr_dict[attr_name]] = attr_value
