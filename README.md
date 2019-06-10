@@ -13,5 +13,14 @@ This is a replacement to my Debian-Packages-Scrapy
 of a large software compilation](https://link.springer.com/content/pdf/10.1007%2Fs10664-008-9100-x.pdf) --Jesus M. Gonzalez-Barahona
 
 # Some findings
-Top 10 frequently used packages as dependecies
-[('python3-setuptools', 1215), ('dh-buildinfo', 1226), ('cdbs', 1248), ('python-setuptools', 1567), ('autotools-dev', 1894), ('pkg-config', 2060), ('dh-python', 2360), ('dh-autoreconf', 2558), ('perl', 3244), ('debhelper ', 18568)]
+Top 10 frequently used packages as dependecies<br>:
+('python3-setuptools', 1215), 
+('dh-buildinfo', 1226), 
+('cdbs', 1248), 
+('python-setuptools', 1567), 
+('autotools-dev', 1894), 
+('pkg-config', 2060), 
+('dh-python', 2360), 
+('dh-autoreconf', 2558), 
+('perl', 3244), 
+('debhelper ', 18568)
