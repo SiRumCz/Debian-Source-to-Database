@@ -32,8 +32,8 @@ for package in c.fetchall():
 # for pkgname, pkgfreq in pkgDependsFreq.items():
 #     print("name: ", pkgname, " used: ", pkgfreq)
 
-sorted_x = sorted(pkgDependsFreq.items(), key=operator.itemgetter(1))
+sorted_x = sorted(pkgDependsFreq.items(), key=operator.itemgetter(1), reverse=True)
 
-print(sorted_x[-10:])
+print(sorted_x[:10])
 
 conn.close()
