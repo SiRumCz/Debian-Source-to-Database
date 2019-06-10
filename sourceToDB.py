@@ -14,7 +14,8 @@ c.execute(
             vcsname text,
             vcslink text,
             homepage text,
-            section text
+            section text,
+            githubapi text
         )
     '''
 )
@@ -26,8 +27,8 @@ c.execute(''' DELETE FROM packages ''')
 
 insert_query = ''' INSERT INTO packages(name, version,
                  dependency, vcsbrowser, vcsname, vcslink, 
-                 homepage, section) VALUES(?, ?, ?, 
-                 ?, ?, ?, ?, ?) '''
+                 homepage, section, githubapi) VALUES(?, ?, ?, 
+                 ?, ?, ?, ?, ?, ?) '''
 
 # Source file path
 fname = "Sources"
@@ -83,7 +84,8 @@ package = {
     "vcsname": None,
     "vcslink": None,
     "homepage": None,
-    "section": None
+    "section": None,
+    "githubapi": None
 }
 pkg_depends = []
 index = 0
